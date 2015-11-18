@@ -1,0 +1,42 @@
+/**
+ * Background
+ */
+
+.u-background-color {
+	background-color: var(--background-background-color) !important;
+}
+
+.u-background-size-cover {
+	background-size: cover
+}
+
+.u-background-size-contain {
+	background-size: contain
+}
+
+.u-background-position-center {
+	background-position: center
+}
+
+.u-background-position-top {
+	background-position: top
+}
+
+.u-background-position-right {
+	background-position: right
+}
+
+.u-background-position-bottom {
+	background-position: bottom
+}
+
+.u-background-position-left {
+	background-position: left
+}
+
+
+
+
+:root {
+	--background-background-color: var(--background-color);
+}

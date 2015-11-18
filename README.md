@@ -14,3 +14,4 @@ Install via [npm](http://npmjs.org/):
 * [Type](./libs/type/)
 * [Spacing](./libs/spacing/)
 * [Display](./libs/display/)
+* [Background](./libs/background/)
