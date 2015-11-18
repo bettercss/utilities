@@ -3,7 +3,7 @@
  */
 
 .u-background-color {
-	background-color: var(--background-background-color) !important;
+	background-color: var(--background-color) !important;
 }
 
 .u-background-size-cover {
@@ -38,5 +38,5 @@
 
 
 :root {
-	--background-background-color: #ccc;
+	--background-color: #ccc;
 }
