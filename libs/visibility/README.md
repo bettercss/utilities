@@ -2,7 +2,7 @@
 
 The `Visibility` library provides utilities for element page visibility.
 
-## Utilities
+## Classes
 
 ##### .u-visibility-hidden
 
