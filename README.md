@@ -13,3 +13,4 @@ Install via [npm](http://npmjs.org/):
 * [Visibility](./libs/visibility/)
 * [Type](./libs/type/)
 * [Spacing](./libs/spacing/)
+* [Display](./libs/display/)
