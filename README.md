@@ -16,3 +16,4 @@ Install via [npm](http://npmjs.org/):
 * [Display](./libs/display/)
 * [Background](./libs/background/)
 * [Border](./libs/border/)
+* [Width](./libs/width/)
