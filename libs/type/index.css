@@ -1,0 +1,119 @@
+/**
+ * Type
+ */
+
+.u-font-size-h1 {
+	font-size: var(--type-h1) !important;
+}
+
+.u-font-size-h2 {
+	font-size: var(--type-h2) !important;
+}
+
+.u-font-size-h3 {
+	font-size: var(--type-h3) !important;
+}
+
+.u-font-size-h4 {
+	font-size: var(--type-h4) !important;
+}
+
+.u-font-size-h5 {
+	font-size: var(--type-h5) !important;
+}
+
+.u-font-size-h6 {
+	font-size: var(--type-h6) !important;
+}
+
+/**
+ * Note: Won't work on inline elements.
+ */
+
+.u-truncate {
+	max-width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.u-font-weight-normal {
+	font-weight: normal !important;
+}
+.u-font-weight-bold {
+	font-weight: bold !important;
+}
+
+.u-text-transform-none {
+	text-transform: none !important;
+}
+.u-text-transform-uppercase {
+	text-transform: uppercase !important;
+}
+.u-text-transform-lowercase {
+	text-transform: lowercase !important;
+}
+.u-text-transform-capitalize {
+	text-transform: capitalize !important;
+}
+
+.u-text-decoration-none {
+	text-decoration: none !important;
+}
+.u-text-decoration-underline {
+	text-decoration: underline !important;
+}
+.u-text-decoration-line-through {
+	text-decoration: line-through !important;
+}
+
+.u-text-align-center {
+	text-align: center !important;
+}
+.u-text-align-left {
+	text-align: left !important;
+}
+.u-text-align-right {
+	text-align: right !important;
+}
+.u-text-align-justify {
+	text-align: justify !important;
+}
+
+.u-vertical-align {
+	vertical-align: baseline !important;
+}
+.u-vertical-align-middle {
+	vertical-align: middle !important;
+}
+.u-vertical-align-top {
+	vertical-align: top !important;
+}
+.u-vertical-align-bottom {
+	vertical-align: bottom !important;
+}
+
+
+.u-font-size-small {
+	font-size: var(--type-font-size-small) !important;
+}
+
+.u-font-size-large {
+	font-size: var(--type-font-size-large) !important;
+}
+
+
+
+
+:root {
+	--type-h1: var(--h1);
+	--type-h2: var(--h2);
+	--type-h3: var(--h3);
+	--type-h4: var(--h4);
+	--type-h5: var(--h5);
+	--type-h6: var(--h6);
+	--type-font-size-small: .1rem;
+	--type-font-size-large: .2rem;
+}
+
+

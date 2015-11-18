@@ -11,3 +11,4 @@ Install via [npm](http://npmjs.org/):
 ## Libraries
 
 * [Visibility](./libs/visibility/)
+* [Type](./libs/type/)
