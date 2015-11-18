@@ -5,15 +5,19 @@
 .u-margin {
 	margin: var(--spacing-margin) !important;
 }
+
 .u-margin-top {
 	margin-top: var(--spacing-margin) !important;
 }
+
 .u-margin-bottom {
 	margin-bottom: var(--spacing-margin) !important;
 }
+
 .u-margin-left {
 	margin-left: var(--spacing-margin) !important;
 }
+
 .u-margin-right {
 	margin-right: var(--spacing-margin) !important;
 }
@@ -21,15 +25,19 @@
 .u-margin-small {
 	margin: var(--spacing-margin-small) !important;
 }
+
 .u-margin-top-small {
 	margin-top: var(--spacing-margin-small) !important;
 }
+
 .u-margin-bottom-small {
 	margin-bottom: var(--spacing-margin-small) !important;
 }
+
 .u-margin-left-small {
 	margin-left: var(--spacing-margin-small) !important;
 }
+
 .u-margin-right-small {
 	margin-right: var(--spacing-margin-small) !important;
 }
@@ -37,31 +45,59 @@
 .u-margin-large {
 	margin: var(--spacing-margin-large) !important;
 }
+
 .u-margin-top-large {
 	margin-top: var(--spacing-margin-large) !important;
 }
+
 .u-margin-bottom-large {
 	margin-bottom: var(--spacing-margin-large) !important;
 }
+
 .u-margin-left-large {
 	margin-left: var(--spacing-margin-large) !important;
 }
+
 .u-margin-right-large {
 	margin-right: var(--spacing-margin-large) !important;
+}
+
+.u-margin-remove {
+	margin: 0 !important;
+}
+
+.u-margin-top-remove {
+	margin-top: 0 !important;
+}
+
+.u-margin-bottom-remove {
+	margin-bottom: 0 !important;
+}
+
+.u-margin-left-remove {
+	margin-left: 0 !important;
+}
+
+.u-margin-right-remove {
+	margin-right: 0 !important;
 }
 
 .u-padding {
 	padding: var(--spacing-padding) !important;
 }
+
 .u-padding-top {
 	padding-top: var(--spacing-padding) !important;
 }
+
 .u-padding-bottom {
 	padding-bottom: var(--spacing-padding) !important;
 }
+
 .u-padding-left {
 	padding-left: var(--spacing-padding) !important;
 }
+
 .u-padding-right {
 	padding-right: var(--spacing-padding) !important;
 }
@@ -69,39 +105,62 @@
 .u-padding-small {
 	padding: var(--spacing-padding-small) !important;
 }
+
 .u-padding-top-small {
 	padding-top: var(--spacing-padding-small) !important;
 }
+
 .u-padding-bottom-small {
 	padding-bottom: var(--spacing-padding-small) !important;
 }
+
 .u-padding-left-small {
 	padding-left: var(--spacing-padding-small) !important;
 }
+
 .u-padding-right-small {
 	padding-right: var(--spacing-padding-small) !important;
 }
+
 .u-padding-large {
 	padding: var(--spacing-padding-large) !important;
 }
+
 .u-padding-top-large {
 	padding-top: var(--spacing-padding-large) !important;
 }
+
 .u-padding-bottom-large {
 	padding-bottom: var(--spacing-padding-large) !important;
 }
+
 .u-padding-left-large {
 	padding-left: var(--spacing-padding-large) !important;
 }
+
 .u-padding-right-large {
 	padding-right: var(--spacing-padding-large) !important;
 }
 
+.u-padding-remove {
+	padding: 0 !important;
+}
 
+.u-padding-top-remove {
+	padding-top: 0 !important;
+}
 
+.u-padding-bottom-remove {
+	padding-bottom: 0 !important;
+}
 
+.u-padding-left-remove {
+	padding-left: 0 !important;
+}
 
-
+.u-padding-right-remove {
+	padding-right: 0 !important;
+}
 
 :root {
 	--spacing-margin: var(--base-spacing-unit);
