@@ -15,3 +15,4 @@ Install via [npm](http://npmjs.org/):
 * [Spacing](./libs/spacing/)
 * [Display](./libs/display/)
 * [Background](./libs/background/)
+* [Border](./libs/border/)
