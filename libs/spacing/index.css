@@ -163,10 +163,10 @@
 }
 
 :root {
-	--spacing-margin: var(--base-spacing-unit);
-	--spacing-margin-small: calc(var(--base-spacing-unit) / 2);
-	--spacing-margin-large: calc(var(--base-spacing-unit) * 2);
-	--spacing-padding: var(--base-spacing-unit);
-	--spacing-padding-small: calc(var(--base-spacing-unit) / 2);
-	--spacing-padding-large: calc(var(--base-spacing-unit) * 2);
+	--spacing-margin: var(--spacing-unit);
+	--spacing-margin-small: calc(var(--spacing-unit) / 2);
+	--spacing-margin-large: calc(var(--spacing-unit) * 2);
+	--spacing-padding: var(--spacing-unit);
+	--spacing-padding-small: calc(var(--spacing-unit) / 2);
+	--spacing-padding-large: calc(var(--spacing-unit) * 2);
 }
