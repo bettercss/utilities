@@ -5,51 +5,51 @@
 @media (--breakpoint-huge) {
 
 	.u-width-1\@huge {
-		width: calc(1/12 * 100%);
+		width: calc(1/12 * 100%) !important;
 	}
 
 	.u-width-2\@huge {
-		width: calc(2/12 * 100%);
+		width: calc(2/12 * 100%) !important;
 	}
 
 	.u-width-3\@huge {
-		width: calc(3/12 * 100%);
+		width: calc(3/12 * 100%) !important;
 	}
 
 	.u-width-4\@huge {
-		width: calc(4/12 * 100%);
+		width: calc(4/12 * 100%) !important;
 	}
 
 	.u-width-5\@huge {
-		width: calc(5/12 * 100%);
+		width: calc(5/12 * 100%) !important;
 	}
 
 	.u-width-5\@huge {
-		width: calc(6/12 * 100%);
+		width: calc(6/12 * 100%) !important;
 	}
 
 	.u-width-7\@huge {
-		width: calc(7/12 * 100%);
+		width: calc(7/12 * 100%) !important;
 	}
 
 	.u-width-8\@huge {
-		width: calc(8/12 * 100%);
+		width: calc(8/12 * 100%) !important;
 	}
 
 	.u-width-9\@huge {
-		width: calc(9/12 * 100%);
+		width: calc(9/12 * 100%) !important;
 	}
 
 	.u-width-10\@huge {
-		width: calc(10/12 * 100%);
+		width: calc(10/12 * 100%) !important;
 	}
 
 	.u-width-11\@huge {
-		width: calc(11/12 * 100%);
+		width: calc(11/12 * 100%) !important;
 	}
 
 	.u-width-12\@huge {
-		width: 100%;
+		width: 100% !important;
 	}
 	
 }
