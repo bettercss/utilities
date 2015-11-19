@@ -1,0 +1,59 @@
+/**
+ * Border
+ */
+
+.u-border-color {
+	border: var(--border-color) !important;
+}
+
+.u-border-color-top {
+	border-top: var(--border-color) !important;
+}
+
+.u-border-color-left {
+	border-left: var(--border-color) !important;
+}
+
+.u-border-color-right {
+	border-right: var(--border-color) !important;
+}
+
+.u-border-color-bottom {
+	border-bottom: var(--border-color) !important;
+}
+
+.u-border-none {
+	border: 0 !important;
+}
+
+.u-border-rounded {
+	border-radius: var(--border-radius) !important;
+}
+
+.u-border-circle {
+	border-radius: 50% !important;
+}
+
+.u-border-rounded-top {
+	border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
+}
+
+.u-border-rounded-right {
+	border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
+}
+
+.u-border-rounded-bottom {
+	border-radius: 0 0 var(--border-radius) var(--border-radius) !important;
+}
+
+.u-border-rounded-left {
+	border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
+}
+
+
+
+
+:root {
+	--border-color: #ccc;
+	--border-radius: 2px;
+}

@@ -1,0 +1,11 @@
+/**
+ * Visibility
+ */
+
+.u-visibility-hidden {
+	visibility: hidden !important;
+}
+
+.u-visibility-visible {
+	visibility: visible !important;
+}
