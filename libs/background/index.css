@@ -7,31 +7,31 @@
 }
 
 .u-background-size-cover {
-	background-size: cover
+	background-size: cover !important;
 }
 
 .u-background-size-contain {
-	background-size: contain
+	background-size: contain !important;
 }
 
 .u-background-position-center {
-	background-position: center
+	background-position: center !important;
 }
 
 .u-background-position-top {
-	background-position: top
+	background-position: top !important;
 }
 
 .u-background-position-right {
-	background-position: right
+	background-position: right !important;
 }
 
 .u-background-position-bottom {
-	background-position: bottom
+	background-position: bottom !important;
 }
 
 .u-background-position-left {
-	background-position: left
+	background-position: left!important;
 }
 
 
