@@ -1,0 +1,132 @@
+/**
+ * Medium Type
+ */
+
+@media (--breakpoint-medium) {
+
+	.u-font-size-h1\@medium {
+		font-size: var(--type-h1) !important;
+	}
+
+	.u-font-size-h2\@medium {
+		font-size: var(--type-h2) !important;
+	}
+
+	.u-font-size-h3\@medium {
+		font-size: var(--type-h3) !important;
+	}
+
+	.u-font-size-h4\@medium {
+		font-size: var(--type-h4) !important;
+	}
+
+	.u-font-size-h5\@medium {
+		font-size: var(--type-h5) !important;
+	}
+
+	.u-font-size-h6\@medium {
+		font-size: var(--type-h6) !important;
+	}
+
+	/**
+	 * Note: Won't work on inline elements.
+	 */
+
+	.u-truncate\@medium {
+		max-width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.u-font-weight-normal\@medium {
+		font-weight: normal !important;
+	}
+
+	.u-font-weight-bold\@medium {
+		font-weight: bold !important;
+	}
+
+	.u-text-transform-none\@medium {
+		text-transform: none !important;
+	}
+
+	.u-text-transform-uppercase\@medium {
+		text-transform: uppercase !important;
+	}
+
+	.u-text-transform-lowercase\@medium {
+		text-transform: lowercase !important;
+	}
+
+	.u-text-transform-capitalize\@medium {
+		text-transform: capitalize !important;
+	}
+
+	.u-text-decoration-none\@medium {
+		text-decoration: none !important;
+	}
+
+	.u-text-decoration-underline\@medium {
+		text-decoration: underline !important;
+	}
+
+	.u-text-decoration-line-through\@medium {
+		text-decoration: line-through !important;
+	}
+
+	.u-text-align-center\@medium {
+		text-align: center !important;
+	}
+
+	.u-text-align-left\@medium {
+		text-align: left !important;
+	}
+
+	.u-text-align-right\@medium {
+		text-align: right !important;
+	}
+
+	.u-text-align-justify\@medium {
+		text-align: justify !important;
+	}
+
+	.u-vertical-align\@medium {
+		vertical-align: baseline !important;
+	}
+
+	.u-vertical-align-middle\@medium {
+		vertical-align: middle !important;
+	}
+
+	.u-vertical-align-top\@medium {
+		vertical-align: top !important;
+	}
+
+	.u-vertical-align-bottom\@medium {
+		vertical-align: bottom !important;
+	}
+
+	.u-font-size-small\@medium {
+		font-size: var(--type-font-size-small) !important;
+	}
+
+	.u-font-size-large\@medium {
+		font-size: var(--type-font-size-large) !important;
+	}
+
+
+
+
+
+	:root {
+		--type-h1: var(--h1);
+		--type-h2: var(--h2);
+		--type-h3: var(--h3);
+		--type-h4: var(--h4);
+		--type-h5: var(--h5);
+		--type-h6: var(--h6);
+		--type-font-size-small: .1rem;
+		--type-font-size-large: .2rem;
+	}
+}

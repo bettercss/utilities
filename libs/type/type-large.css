@@ -1,0 +1,132 @@
+/**
+ * Large Width
+ */
+
+@media (--breakpoint-large) {
+
+	.u-font-size-h1\@large {
+		font-size: var(--type-h1) !important;
+	}
+
+	.u-font-size-h2\@large {
+		font-size: var(--type-h2) !important;
+	}
+
+	.u-font-size-h3\@large {
+		font-size: var(--type-h3) !important;
+	}
+
+	.u-font-size-h4\@large {
+		font-size: var(--type-h4) !important;
+	}
+
+	.u-font-size-h5\@large {
+		font-size: var(--type-h5) !important;
+	}
+
+	.u-font-size-h6\@large {
+		font-size: var(--type-h6) !important;
+	}
+
+	/**
+	 * Note: Won't work on inline elements.
+	 */
+
+	.u-truncate\@large {
+		max-width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.u-font-weight-normal\@large {
+		font-weight: normal !important;
+	}
+
+	.u-font-weight-bold\@large {
+		font-weight: bold !important;
+	}
+
+	.u-text-transform-none\@large {
+		text-transform: none !important;
+	}
+
+	.u-text-transform-uppercase\@large {
+		text-transform: uppercase !important;
+	}
+
+	.u-text-transform-lowercase\@large {
+		text-transform: lowercase !important;
+	}
+
+	.u-text-transform-capitalize\@large {
+		text-transform: capitalize !important;
+	}
+
+	.u-text-decoration-none\@large {
+		text-decoration: none !important;
+	}
+
+	.u-text-decoration-underline\@large {
+		text-decoration: underline !important;
+	}
+
+	.u-text-decoration-line-through\@large {
+		text-decoration: line-through !important;
+	}
+
+	.u-text-align-center\@large {
+		text-align: center !important;
+	}
+
+	.u-text-align-left\@large {
+		text-align: left !important;
+	}
+
+	.u-text-align-right\@large {
+		text-align: right !important;
+	}
+
+	.u-text-align-justify\@large {
+		text-align: justify !important;
+	}
+
+	.u-vertical-align\@large {
+		vertical-align: baseline !important;
+	}
+
+	.u-vertical-align-middle\@large {
+		vertical-align: middle !important;
+	}
+
+	.u-vertical-align-top\@large {
+		vertical-align: top !important;
+	}
+
+	.u-vertical-align-bottom\@large {
+		vertical-align: bottom !important;
+	}
+
+	.u-font-size-small\@large {
+		font-size: var(--type-font-size-small) !important;
+	}
+
+	.u-font-size-large\@large {
+		font-size: var(--type-font-size-large) !important;
+	}
+
+
+
+
+	:root {
+		--type-h1: var(--h1);
+		--type-h2: var(--h2);
+		--type-h3: var(--h3);
+		--type-h4: var(--h4);
+		--type-h5: var(--h5);
+		--type-h6: var(--h6);
+		--type-font-size-small: .1rem;
+		--type-font-size-large: .2rem;
+	}
+}
+
