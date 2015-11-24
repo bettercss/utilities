@@ -17,23 +17,23 @@ Sets the flex display property.
 
 ## Parent Modifiers
 
-##### .u-flex--wrap
+##### .u-flex-wrap
 
 Wrap items onto new line when they exceed the viewport.
 
 ```html
-<div class="u-flex u-flex--wrap">
+<div class="u-flex u-flex-wrap">
 	<div>column</div>
     <div>column</div>
 </div>
 ```
 
-##### .u-flex--column
+##### .u-flex-column
 
 Arrange items vertically.
 
 ```html
-<div class="u-flex u-flex--wrap">
+<div class="u-flex u-flex-wrap">
 	<div>column</div>
     <div>column</div>
 </div>
@@ -41,67 +41,67 @@ Arrange items vertically.
 
 ### Alignment
 
-##### .u-flex--center
+##### .u-flex-center
 
 Vertically center child elements.
 
 ```html
-<div class="u-flex u-flex--center">
+<div class="u-flex u-flex-center">
 	<div>column</div>
     <div>column</div>
 </div>
 ```
 
-##### .u-flex--stretch
+##### .u-flex-stretch
 
 Stretch all elements to fill the height of the parent.
 
 ```html
-<div class="u-flex u-flex--stretch">
+<div class="u-flex u-flex-stretch">
 	<div>column</div>
     <div>column</div>
 </div>
 ```
 
-##### .u-flex--baseline
+##### .u-flex-baseline
 
 Align child elements to their baseline.
 
 ```html
-<div class="u-flex u-flex--baseline">
+<div class="u-flex u-flex-baseline">
 	<div>column</div>
     <div>column</div>
 </div>
 ```
 
-##### .u-flex--start
+##### .u-flex-start
 
 Align child elements to the top.
 
 ```html
-<div class="u-flex u-flex--start">
+<div class="u-flex u-flex-start">
 	<div>column</div>
     <div>column</div>
 </div>
 ```
 
-##### .u-flex--end
+##### .u-flex-end
 
 Align child elements to the bottom.
 
 ```html
-<div class="u-flex u-flex--end">
+<div class="u-flex u-flex-end">
 	<div>column</div>
     <div>column</div>
 </div>
 ```
 
-##### .o-flex--justify
+##### .o-flex-justify
 
 Automatically fill the space between child elements.
 
 ```html
-<div class="u-flex u-flex--end">
+<div class="u-flex u-flex-end">
 	<div>column</div>
     <div>column</div>
 </div>
@@ -110,57 +110,57 @@ Automatically fill the space between child elements.
 
 ## Child Modifiers
 
-##### .u-flex--auto
+##### .u-flex-auto
 
 Make an element grow or shrink as needed.
 
 ```html
 <div class="u-flex">
-	<div class="u-flex--auto">column</div>
+	<div class="u-flex-auto">column</div>
     <div>column</div>
 </div>
 ```
 
-##### .u-flex--grow
+##### .u-flex-grow
 
 Make an element grow, but not shrink.
 
 ```html
 <div class="u-flex">
-	<div class="u-flex--grow">column</div>
+	<div class="u-flex-grow">column</div>
     <div>column</div>
 </div>
 ```
 
-##### .u-flex--none
+##### .u-flex-none
 
 Prevent an element from growing or shrinking.
 
 ```html
 <div class="u-flex">
-	<div class="u-flex--none">column</div>
+	<div class="u-flex-none">column</div>
     <div>column</div>
 </div>
 ```
 
-##### .u-flex--first
+##### .u-flex-first
 
 Change the order of child element to first.
 
 ```html
 <div class="u-flex">
 	<div>column</div>
-    <div class="u-flex--first">column</div>
+    <div class="u-flex-first">column</div>
 </div>
 ```
 
-##### .u-flex--last
+##### .u-flex-last
 
 Change the order of child element to last.
 
 ```html
 <div class="u-flex">
-	<div class="u-flex--last">column</div>
+	<div class="u-flex-last">column</div>
     <div>column</div>
 </div>
 ```
