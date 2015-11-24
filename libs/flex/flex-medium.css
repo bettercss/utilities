@@ -12,35 +12,35 @@
 	 * Parent
 	 */
 
-	.u-flex--wrap\@medium {
+	.u-flex-wrap\@medium {
 		flex-wrap: wrap;
 	}
 
-	.u-flex--column\@medium {
+	.u-flex-column\@medium {
 		flex-direction: column;
 	}
 
-	.u-flex--center\@medium {
+	.u-flex-center\@medium {
 		align-items: center;
 	}
 
-	.u-flex--stretch\@medium {
+	.u-flex-stretch\@medium {
 		align-items: stretch;
 	}
 
-	.u-flex--baseline\@medium {
+	.u-flex-baseline\@medium {
 		align-items: baseline;
 	}
 
-	.u-flex--start\@medium {
+	.u-flex-start\@medium {
 		align-items: flex-start;
 	}
 
-	.u-flex--end\@medium {
+	.u-flex-end\@medium {
 		align-items: flex-end;
 	}
 
-	.u-flex--justify\@medium {
+	.u-flex-justify\@medium {
 		justify-content: space-between;
 	}
 
@@ -52,25 +52,25 @@
 	 * 1. Fix for Chrome 44 bug. https://code.google.com/p/chromium/issues/detail?id=506893
 	 */
 
-	.u-flex--auto\@medium {
+	.u-flex-auto\@medium {
 		flex: 1 1 auto;
 		min-width: 0; /* [1] */
 		min-height: 0; /* [1] */
 	}
 
-	.u-flex--grow\@medium {
+	.u-flex-grow\@medium {
 		flex: 1 0 auto;
 	}
 
-	.u-flex--none\@medium {
+	.u-flex-none\@medium {
 		flex: none;
 	}
 
-	.u-flex--first\@medium {
+	.u-flex-first\@medium {
 		order: -1;
 	}
 
-	.u-flex--last\@medium {
+	.u-flex-last\@medium {
 		order: 99999;
 	}
 
