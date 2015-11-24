@@ -1,0 +1,47 @@
+/**
+ * Large Background
+ */
+
+@media (--breakpoint-large) {
+
+	.u-background-color\@large {
+		background-color: var(--background-color) !important;
+	}
+
+	.u-background-size-cover\@large {
+		background-size: cover !important;
+	}
+
+	.u-background-size-contain\@large {
+		background-size: contain !important;
+	}
+
+	.u-background-position-center\@large {
+		background-position: center !important;
+	}
+
+	.u-background-position-top\@large {
+		background-position: top !important;
+	}
+
+	.u-background-position-right\@large {
+		background-position: right !important;
+	}
+
+	.u-background-position-bottom\@large {
+		background-position: bottom !important;
+	}
+
+	.u-background-position-left\@large {
+		background-position: left!important;
+	}
+
+
+
+
+	:root {
+		--background-color: #ccc;
+	}
+
+}
+

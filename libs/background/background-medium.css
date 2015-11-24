@@ -1,0 +1,47 @@
+/**
+ * Medium Background
+ */
+
+@media (--breakpoint-medium) {
+
+	.u-background-color\@medium {
+		background-color: var(--background-color) !important;
+	}
+
+	.u-background-size-cover\@medium {
+		background-size: cover !important;
+	}
+
+	.u-background-size-contain\@medium {
+		background-size: contain !important;
+	}
+
+	.u-background-position-center\@medium {
+		background-position: center !important;
+	}
+
+	.u-background-position-top\@medium {
+		background-position: top !important;
+	}
+
+	.u-background-position-right\@medium {
+		background-position: right !important;
+	}
+
+	.u-background-position-bottom\@medium {
+		background-position: bottom !important;
+	}
+
+	.u-background-position-left\@medium {
+		background-position: left!important;
+	}
+
+
+
+
+	:root {
+		--background-color: #ccc;
+	}
+
+}
+
