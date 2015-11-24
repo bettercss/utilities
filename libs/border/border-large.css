@@ -4,23 +4,23 @@
 
 @media (--breakpoint-large) {
 
-	.u-border-color\@large {
+	.u-border\@large {
 		border: var(--border-color) !important;
 	}
 
-	.u-border-color-top\@large {
+	.u-border-top\@large {
 		border-top: var(--border-color) !important;
 	}
 
-	.u-border-color-left\@large {
+	.u-border-left\@large {
 		border-left: var(--border-color) !important;
 	}
 
-	.u-border-color-right\@large {
+	.u-border-right\@large {
 		border-right: var(--border-color) !important;
 	}
 
-	.u-border-color-bottom\@large {
+	.u-border-bottom\@large {
 		border-bottom: var(--border-color) !important;
 	}
 
@@ -58,7 +58,7 @@
 
 
 :root {
-	--border-color: #ccc;
+	--border-color: solid 1px #ccc;
 	--border-radius: 2px;
 }
 

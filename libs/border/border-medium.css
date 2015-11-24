@@ -4,23 +4,23 @@
 
 @media (--breakpoint-medium) {
 
-	.u-border-color\@medium {
+	.u-border\@medium {
 		border: var(--border-color) !important;
 	}
 
-	.u-border-color-top\@medium {
+	.u-border-top\@medium {
 		border-top: var(--border-color) !important;
 	}
 
-	.u-border-color-left\@medium {
+	.u-border-left\@medium {
 		border-left: var(--border-color) !important;
 	}
 
-	.u-border-color-right\@medium {
+	.u-border-right\@medium {
 		border-right: var(--border-color) !important;
 	}
 
-	.u-border-color-bottom\@medium {
+	.u-border-bottom\@medium {
 		border-bottom: var(--border-color) !important;
 	}
 

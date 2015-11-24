@@ -2,23 +2,23 @@
  * Border
  */
 
-.u-border-color {
+.u-border {
 	border: var(--border-color) !important;
 }
 
-.u-border-color-top {
+.u-border-top {
 	border-top: var(--border-color) !important;
 }
 
-.u-border-color-left {
+.u-border-left {
 	border-left: var(--border-color) !important;
 }
 
-.u-border-color-right {
+.u-border-right {
 	border-right: var(--border-color) !important;
 }
 
-.u-border-color-bottom {
+.u-border-bottom {
 	border-bottom: var(--border-color) !important;
 }
 
@@ -54,6 +54,6 @@
 
 
 :root {
-	--border-color: #ccc;
+	--border-color: solid 1px #ccc;
 	--border-radius: 2px;
 }
