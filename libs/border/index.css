@@ -1,2 +1,5 @@
 
 @import './border.css';
+@import './border-small.css';
+@import './border-medium.css';
+@import './border-large.css';
