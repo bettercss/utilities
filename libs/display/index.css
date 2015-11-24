@@ -1,2 +1,5 @@
 
 @import './display.css';
+@import './display-small.css';
+@import './display-medium.css';
+@import './display-large.css';

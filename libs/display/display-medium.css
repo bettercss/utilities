@@ -1,0 +1,28 @@
+/**
+ * Medium Display
+ */
+
+@media (--breakpoint-medium) {
+
+	.u-display-block\@medium {
+		display: block !important;
+	}
+
+	.u-display-inline\@medium {
+		display: inline !important;
+	}
+
+	.u-display-inline-block\@medium {
+		display: inline-block !important;
+	}
+
+	.u-display-flex\@medium {
+		display: flex !important;
+	}
+
+	.u-display-none\@medium {
+		display: none !important;
+	}
+
+}
+

@@ -1,0 +1,28 @@
+/**
+ * Large Display
+ */
+
+@media (--breakpoint-large) {
+
+	.u-display-block\@large {
+		display: block !important;
+	}
+
+	.u-display-inline\@large {
+		display: inline !important;
+	}
+
+	.u-display-inline-block\@large {
+		display: inline-block !important;
+	}
+
+	.u-display-flex\@large {
+		display: flex !important;
+	}
+
+	.u-display-none\@large {
+		display: none !important;
+	}
+
+}
+
