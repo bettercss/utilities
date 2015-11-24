@@ -1,0 +1,16 @@
+/**
+ * Small Visibility
+ */
+
+@media (--breakpoint-small) {
+
+	.u-visibility-hidden\@small {
+		visibility: hidden !important;
+	}
+
+	.u-visibility-visible\@small {
+		visibility: visible !important;
+	}
+
+}
+
