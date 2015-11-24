@@ -10,6 +10,7 @@ Install via [npm](http://npmjs.org/):
 
 ## Libraries
 
+* [Flex](./libs/flex/)
 * [Visibility](./libs/visibility/)
 * [Type](./libs/type/)
 * [Spacing](./libs/spacing/)

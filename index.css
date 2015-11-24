@@ -2,6 +2,7 @@
  * Utilities
  */
 
+@import './libs/flex';
 @import './libs/visibility';
 @import './libs/type';
 @import './libs/spacing';
