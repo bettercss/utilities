@@ -19,3 +19,7 @@ Element visibility to visible.
 ```html
 <div class="u-visibility-visible">Visible Item</div>  
 ```
+
+## Responsive
+
+Includes responsive classes `[medium, large]`

@@ -52,5 +52,9 @@ Sets border-radius so element appears to be a circle.
 <span class="u-border-circle">10</span>
 ```
 
+## Responsive
+
+Includes responsive classes `[medium, large]`
+
 
 

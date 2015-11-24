@@ -11,3 +11,7 @@ Applies display property on element.
 ```html
 <span class="u-display-flex">Flexing</span>  
 ```
+
+## Responsive
+
+Includes responsive classes `[medium, large]`

@@ -27,3 +27,7 @@ Sets the background position property.
 ```html
 <span class="u-background-position-top">Flexing</span>  
 ```
+
+## Responsive
+
+Includes responsive classes `[medium, large]`

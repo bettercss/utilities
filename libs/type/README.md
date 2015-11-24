@@ -59,3 +59,7 @@ Set font-sise for element.
 ```html
 <div class="u-font-size-small">Small Text</div>  
 ```
+
+## Responsive
+
+Includes responsive classes `[medium, large]`

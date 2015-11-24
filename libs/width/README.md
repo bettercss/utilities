@@ -13,3 +13,7 @@ Sets the width property based on appended unit.
 	<div class="o-layout__item u-width-12">100% Width</div>
 </div>  
 ```
+
+## Responsive
+
+Includes responsive classes `[medium, large]`

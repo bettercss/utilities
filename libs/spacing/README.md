@@ -35,3 +35,7 @@ Removes padding in the direction specified.
 ```html
 <span class="u-padding-bottom-remove">Remove Spacing</span>  
 ```
+
+## Responsive
+
+Includes responsive classes `[medium, large]`
