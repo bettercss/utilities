@@ -1,2 +1,5 @@
 
 @import './spacing.css';
+@import './spacing-small.css';
+@import './spacing-medium.css';
+@import './spacing-large.css';
