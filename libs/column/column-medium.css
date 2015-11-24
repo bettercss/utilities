@@ -1,54 +1,54 @@
 /**
- * Large Width
+ * Medium Column
  */
 
-@media (--breakpoint-large) {
+@media (--breakpoint-medium) {
 
-	.u-width-1\@large {
+	.u-column-1\@medium {
 		width: calc(1/12 * 100%) !important;
 	}
 
-	.u-width-2\@large {
+	.u-column-2\@medium {
 		width: calc(2/12 * 100%) !important;
 	}
 
-	.u-width-3\@large {
+	.u-column-3\@medium {
 		width: calc(3/12 * 100%) !important;
 	}
 
-	.u-width-4\@large {
+	.u-column-4\@medium {
 		width: calc(4/12 * 100%) !important;
 	}
 
-	.u-width-5\@large {
+	.u-column-5\@medium {
 		width: calc(5/12 * 100%) !important;
 	}
 
-	.u-width-5\@large {
+	.u-column-5\@medium {
 		width: calc(6/12 * 100%) !important;
 	}
 
-	.u-width-7\@large {
+	.u-column-7\@medium {
 		width: calc(7/12 * 100%) !important;
 	}
 
-	.u-width-8\@large {
+	.u-column-8\@medium {
 		width: calc(8/12 * 100%) !important;
 	}
 
-	.u-width-9\@large {
+	.u-column-9\@medium {
 		width: calc(9/12 * 100%) !important;
 	}
 
-	.u-width-10\@large {
+	.u-column-10\@medium {
 		width: calc(10/12 * 100%) !important;
 	}
 
-	.u-width-11\@large {
+	.u-column-11\@medium {
 		width: calc(11/12 * 100%) !important;
 	}
 
-	.u-width-12\@large {
+	.u-column-12\@medium {
 		width: 100% !important;
 	}
 	
