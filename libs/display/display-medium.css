@@ -16,10 +16,6 @@
 		display: inline-block !important;
 	}
 
-	.u-display-flex\@medium {
-		display: flex !important;
-	}
-
 	.u-display-none\@medium {
 		display: none !important;
 	}
