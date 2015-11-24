@@ -36,12 +36,12 @@
 		background-position: left!important;
 	}
 
-
-
-
-	:root {
-		--background-color: #ccc;
-	}
-
 }
 
+
+
+
+
+:root {
+	--background-color: #ccc;
+}

@@ -52,13 +52,13 @@
 		border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
 	}
 
+}
 
 
 
-	:root {
-		--border-color: #ccc;
-		--border-radius: 2px;
-	}
 
+:root {
+	--border-color: #ccc;
+	--border-radius: 2px;
 }
 

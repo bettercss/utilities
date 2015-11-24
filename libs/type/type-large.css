@@ -114,19 +114,21 @@
 	.u-font-size-large\@large {
 		font-size: var(--type-font-size-large) !important;
 	}
+}
 
 
 
 
-	:root {
-		--type-h1: var(--h1);
-		--type-h2: var(--h2);
-		--type-h3: var(--h3);
-		--type-h4: var(--h4);
-		--type-h5: var(--h5);
-		--type-h6: var(--h6);
-		--type-font-size-small: .1rem;
-		--type-font-size-large: .2rem;
-	}
+
+
+:root {
+	--type-h1: var(--h1);
+	--type-h2: var(--h2);
+	--type-h3: var(--h3);
+	--type-h4: var(--h4);
+	--type-h5: var(--h5);
+	--type-h6: var(--h6);
+	--type-font-size-small: .1rem;
+	--type-font-size-large: .2rem;
 }
 

@@ -164,17 +164,18 @@
 		padding-right: 0 !important;
 	}
 
+}
 
 
 
 
-	:root {
-		--spacing-margin: var(--spacing-unit);
-		--spacing-margin-small: calc(var(--spacing-unit) / 2);
-		--spacing-margin-large: calc(var(--spacing-unit) * 2);
-		--spacing-padding: var(--spacing-unit);
-		--spacing-padding-small: calc(var(--spacing-unit) / 2);
-		--spacing-padding-large: calc(var(--spacing-unit) * 2);
-	}
+
+:root {
+	--spacing-margin: var(--spacing-unit);
+	--spacing-margin-small: calc(var(--spacing-unit) / 2);
+	--spacing-margin-large: calc(var(--spacing-unit) * 2);
+	--spacing-padding: var(--spacing-unit);
+	--spacing-padding-small: calc(var(--spacing-unit) / 2);
+	--spacing-padding-large: calc(var(--spacing-unit) * 2);
 }
 
