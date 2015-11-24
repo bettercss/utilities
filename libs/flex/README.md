@@ -164,3 +164,7 @@ Change the order of child element to last.
     <div>column</div>
 </div>
 ```
+
+## Responsive
+
+Includes responsive classes `[medium, large]`
