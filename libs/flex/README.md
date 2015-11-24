@@ -1,6 +1,6 @@
 # Flex
 
-The `Flex` library is a collection of utlities to handle complex layouts using flexbox layout mode to arrange elements on a page.
+The `Flex` library is a collection of utilities to handle complex layouts using flexbox layout mode to arrange elements on a page.
 
 ## Base
 
