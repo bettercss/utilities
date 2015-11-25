@@ -20,8 +20,12 @@
 		flex-direction: column !important;
 	}
 
-	.u-flex-center\@medium {
+	.u-flex-vertical-center\@medium {
 		align-items: center !important;
+	}
+
+	.u-flex-horizontal-center\@medium {
+		justify-content: center !important;
 	}
 
 	.u-flex-stretch\@medium {
