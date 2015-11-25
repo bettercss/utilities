@@ -5,7 +5,7 @@
 @media (--breakpoint-medium) {
 
 	.u-flex\@medium {
-		display: flex;
+		display: flex !important;
 	}
 
 	/**
@@ -13,35 +13,35 @@
 	 */
 
 	.u-flex-wrap\@medium {
-		flex-wrap: wrap;
+		flex-wrap: wrap !important;
 	}
 
 	.u-flex-column\@medium {
-		flex-direction: column;
+		flex-direction: column !important;
 	}
 
 	.u-flex-center\@medium {
-		align-items: center;
+		align-items: center !important;
 	}
 
 	.u-flex-stretch\@medium {
-		align-items: stretch;
+		align-items: stretch !important;
 	}
 
 	.u-flex-baseline\@medium {
-		align-items: baseline;
+		align-items: baseline !important;
 	}
 
 	.u-flex-start\@medium {
-		align-items: flex-start;
+		align-items: flex-start !important;
 	}
 
 	.u-flex-end\@medium {
-		align-items: flex-end;
+		align-items: flex-end !important;
 	}
 
 	.u-flex-justify\@medium {
-		justify-content: space-between;
+		justify-content: space-between !important;
 	}
 
 	/**
@@ -53,25 +53,25 @@
 	 */
 
 	.u-flex-auto\@medium {
-		flex: 1 1 auto;
-		min-width: 0; /* [1] */
-		min-height: 0; /* [1] */
+		flex: 1 1 auto !important;
+		min-width: 0 !important; /* [1] */
+		min-height: 0 !important; /* [1] */
 	}
 
 	.u-flex-grow\@medium {
-		flex: 1 0 auto;
+		flex: 1 0 auto !important;
 	}
 
 	.u-flex-none\@medium {
-		flex: none;
+		flex: none !important;
 	}
 
 	.u-flex-first\@medium {
-		order: -1;
+		order: -1 !important;
 	}
 
 	.u-flex-last\@medium {
-		order: 99999;
+		order: 99999 !important;
 	}
 
 }

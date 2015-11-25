@@ -5,7 +5,7 @@
 @media (--breakpoint-large) {
 
 	.u-flex\@large {
-		display: flex;
+		display: flex !important;
 	}
 
 	/**
@@ -13,35 +13,35 @@
 	 */
 
 	.u-flex-wrap\@large {
-		flex-wrap: wrap;
+		flex-wrap: wrap !important;
 	}
 
 	.u-flex-column\@large {
-		flex-direction: column;
+		flex-direction: column !important;
 	}
 
 	.u-flex-center\@large {
-		align-items: center;
+		align-items: center !important;
 	}
 
 	.u-flex-stretch\@large {
-		align-items: stretch;
+		align-items: stretch !important;
 	}
 
 	.u-flex-baseline\@large {
-		align-items: baseline;
+		align-items: baseline !important;
 	}
 
 	.u-flex-start\@large {
-		align-items: flex-start;
+		align-items: flex-start !important;
 	}
 
 	.u-flex-end\@large {
-		align-items: flex-end;
+		align-items: flex-end !important;
 	}
 
 	.u-flex-justify\@large {
-		justify-content: space-between;
+		justify-content: space-between !important;
 	}
 
 	/**
@@ -53,25 +53,25 @@
 	 */
 
 	.u-flex-auto\@large {
-		flex: 1 1 auto;
-		min-width: 0; /* [1] */
-		min-height: 0; /* [1] */
+		flex: 1 1 auto !important;
+		min-width: 0 !important; /* [1] */
+		min-height: 0 !important; /* [1] */
 	}
 
 	.u-flex-grow\@large {
-		flex: 1 0 auto;
+		flex: 1 0 auto !important;
 	}
 
 	.u-flex-none\@large {
-		flex: none;
+		flex: none !important;
 	}
 
 	.u-flex-first\@large {
-		order: -1;
+		order: -1 !important;
 	}
 
 	.u-flex-last\@large {
-		order: 99999;
+		order: 99999 !important;
 	}
 
 }
