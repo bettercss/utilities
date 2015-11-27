@@ -34,7 +34,7 @@ Set text case for element.
 <div class="u-text-transform-uppercase">Uppercase</div>  
 ```
 
-##### .u-text-decoration-[underline|line-through|none]
+### .u-text-decoration-[underline|line-through|none]
 
 Set text decoration for element.
 
@@ -42,7 +42,7 @@ Set text decoration for element.
 <div class="u-text-decoration-underline">Underlined Text</div>  
 ```
 
-##### .u-text-align-[center|left|right|justify]
+### .u-text-align-[center|left|right|justify]
 
 Set horizontal alignment for element.
 
@@ -50,7 +50,15 @@ Set horizontal alignment for element.
 <div class="u-text-align-center">Centered Text</div>  
 ```
 
-##### .u-font-size-[tiny|small|large|huge]
+### .u-vertical-align-[middle|top|bottom]
+
+Set vertical alignment for element.
+
+```html
+<div class="u-vertical-align-middle">Vertical Middle</div>  
+```
+
+### .u-font-size-[tiny|small|large|huge]
 
 Set font-size based on the size specified.
 
