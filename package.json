@@ -1,6 +1,6 @@
 {
   "name": "bettercss-utilities",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utilities libraries for BetterCSS",
   "main": "index.js",
   "keywords": [
