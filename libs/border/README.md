@@ -1,60 +1,55 @@
-# Border
+<p class="u-text-emphasize">This library provides utilities to add borders types to elements.</p>
 
-The `Border` library provides utilities to add borders types to elements.
+## .u-border-color
 
-## Classes
-
-##### .u-border-color
-
-Adds border color.
+Sets the border to `solid 1px #ccc`.
 
 ```html
-<span class="u-border-color">Border has color</span>  
+<div class="u-border u-padding-small">Border</div>  
 ```
 
-##### .u-border-color-[top|left|right|bottom]
+### .u-border-[top|left|right|bottom]
 
-Sets border color to direction specified.
+Sets border color to `solid 1px #ccc` for the direction specified.
 
 ```html
-<span class="u-border-color-left">Border has color</span> 
+<div class="u-border-color-left u-padding-small">Border Left</div> 
 ```
 
-##### .u-border-none
+### .u-border-none
 
 Removes borders.
 
 ```html
-<span class="u-border-none">Flexing</span>
+<div class="u-border-none">No Borders</div>
 ```
 
-##### .u-border-rounded
+### .u-border-rounded
 
-Sets border-radius so element is visually rounded.
+Sets border-radius to `10px` giving the element rounded corners.
 
 ```html
-<span class="u-border-rounded">Flexing</span>
+<div class="u-border-rounded u-border u-padding-small">Rounded</div>
 ```
 
-##### .u-border-rounded-[top|right|left|bottom]
+### .u-border-rounded-[top|right|left|bottom]
 
-Sets border-radius so element is visually rounded in direction specified.
+Sets border-radius to `10px` giving the element rounded corners for the direction specified.
 
 ```html
-<span class="u-border-rounded-top">Flexing</span>
+<div class="u-border-rounded-top u-border u-padding-small">Rounded Top</div>
 ```
 
-##### .u-border-circle
+### .u-border-circle
 
-Sets border-radius so element appears to be a circle.
+Sets border-radius so element is appears round.
 
 ```html
-<span class="u-border-circle">10</span>
+<span class="u-border-circle u-border u-padding-small">10</span>
 ```
 
-## Responsive
+## Responsive Suffixes
 
-Includes responsive classes `[medium, large]`
+All classes provided in this library come with breakpoint suffixes. Once set the utility property will only be applied at the specified viewport size.
 
-
-
+`@medium, @large`

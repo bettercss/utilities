@@ -1,33 +1,31 @@
-# Background
+<p class="u-text-emphasize">This library provides utilities to handle the background property.</p>
 
-The `Background` library provides utilities to handle the background property.
+### .u-background-color
 
-## Classes
-
-##### .u-background-color
-
-Applies background-color.
+Sets the elements background-color to `#ccc`.
 
 ```html
-<span class="u-background-color">Flexing</span>  
+<div class="u-background-color">background-color</div>  
 ```
 
-##### .u-background-size-[cover|contain]
+### .u-background-size-[cover|contain]
 
 Sets the background size property.
 
 ```html
-<span class="u-background-size-cover">Covering</span>  
+<div class="u-background-size-cover">Background size</div>  
 ```
 
-##### .u-background-position-[top|right|left|bottom|center]
+### .u-background-position-[top|right|left|bottom|center]
 
 Sets the background position property.
 
 ```html
-<span class="u-background-position-top">Flexing</span>  
+<div class="u-background-position-top">Background position top</div>  
 ```
 
-## Responsive
+## Responsive Suffixes
 
-Includes responsive classes `[medium, large]`
+All classes provided in this library come with breakpoint suffixes. Once set the utility property will only be applied at the specified viewport size.
+
+`@medium, @large`

@@ -107,6 +107,11 @@
 		vertical-align: bottom !important;
 	}
 
+
+	.u-font-size-tiny\@medium {
+		font-size: var(--type-font-size-tiny) !important;
+	}
+
 	.u-font-size-small\@medium {
 		font-size: var(--type-font-size-small) !important;
 	}
@@ -114,6 +119,11 @@
 	.u-font-size-large\@medium {
 		font-size: var(--type-font-size-large) !important;
 	}
+
+	.u-font-size-huge\@medium {
+		font-size: var(--type-font-size-huge) !important;
+	}
+
 }
 
 
@@ -127,6 +137,8 @@
 	--type-h4: var(--h4);
 	--type-h5: var(--h5);
 	--type-h6: var(--h6);
-	--type-font-size-small: .1rem;
-	--type-font-size-large: .2rem;
+	--type-font-size-tiny: .5rem;
+	--type-font-size-small: 1rem;
+	--type-font-size-large: 2rem;
+	--type-font-size-huge: 2.5rem;
 }

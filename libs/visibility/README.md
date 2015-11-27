@@ -1,25 +1,23 @@
-# Visibility
+<p class="u-text-emphasize">This library provides utilities for element page visibility.</p>
 
-The `Visibility` library provides utilities for element page visibility.
+### .u-visibility-hidden
 
-## Classes
-
-##### .u-visibility-hidden
-
-Element visibility to hidden.
+Set element visibility to hidden.
 
 ```html
 <div class="u-visibility-hidden">Hidden Item</div>  
 ```
 
-##### .u-visibility-visible
+### .u-visibility-visible
 
-Element visibility to visible.
+Set element visibility to visible.
 
 ```html
 <div class="u-visibility-visible">Visible Item</div>  
 ```
 
-## Responsive
+## Responsive Suffixes
 
-Includes responsive classes `[medium, large]`
+All classes provided in this library come with breakpoint suffixes. Once set the utility property will only be applied at the specified viewport size.
+
+`@medium, @large`

@@ -1,17 +1,15 @@
-# Display
+<p class="u-text-emphasize">This library provides utilities to handle the display property.</p>
 
-The `Display` library provides utilities to handle display property.
+### .u-display-[block|inline|inline-block|flex|none]
 
-## Classes
-
-##### .u-display-[block|inline|inline-block|flex|none]
-
-Applies display property on element.
+Sets the display property on element.
 
 ```html
-<span class="u-display-flex">Flexing</span>  
+<span class="u-display-inline-block">Inline Block</span>  
 ```
 
-## Responsive
+## Responsive Suffixes
 
-Includes responsive classes `[medium, large]`
+All classes provided in this library come with breakpoint suffixes. Once set the utility property will only be applied at the specified viewport size.
+
+`@medium, @large`

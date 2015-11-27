@@ -1,26 +1,24 @@
-# Type
+<p class="u-text-emphasize">This library provides utilities to control typography presentation.</p>
 
-The `Type` library provides utilities to control typography presentation.
+### .u-font-size-[h1|h2|h3|h4|h5|h6|]
 
-## Classes
-
-##### .u-font-size-[h1|h2|h3|h4|h5|h6|]
-
-Gives the element a heading font-size.
+Set a heading style based on the heading size specified. 
 
 ```html
 <span class="u-font-size-h1">Heading</span>  
 ```
 
-##### .u-truncate
+### .u-truncate
 
 Truncate text when hitting the end of an element.
 
+`Note: Doesn't work on inline elements`
+
 ```html
-<div class="u-truncate">Enter text here.</div>  
+<div class="u-truncate u-column-2">Lets get this text to truncate.</div>  
 ```
 
-##### .u-font-weight-[normal|bold|none]
+### .u-font-weight-[normal|bold|none]
 
 Set font-weight for element.
 
@@ -28,12 +26,12 @@ Set font-weight for element.
 <div class="u-font-weight-bold">Bold text</div>  
 ```
 
-##### .u-text-transform-[uppercase|lowercase|capitalize|none]
+### .u-text-transform-[uppercase|lowercase|capitalize|none]
 
 Set text case for element.
 
 ```html
-<div class="u-font-transform-uppercase">Uppercase</div>  
+<div class="u-text-transform-uppercase">Uppercase</div>  
 ```
 
 ##### .u-text-decoration-[underline|line-through|none]
@@ -46,20 +44,26 @@ Set text decoration for element.
 
 ##### .u-text-align-[center|left|right|justify]
 
-Set horrzontal alignment for element.
+Set horizontal alignment for element.
 
 ```html
 <div class="u-text-align-center">Centered Text</div>  
 ```
 
-##### .u-font-size-[small|large]
+##### .u-font-size-[tiny|small|large|huge]
 
-Set font-sise for element.
+Set font-size based on the size specified.
 
 ```html
+<div class="u-font-size-tiny">tiny Text</div>  
 <div class="u-font-size-small">Small Text</div>  
+<div class="u-font-size-large">Large Text</div>  
+<div class="u-font-size-huge">Huge Text</div>  
 ```
 
-## Responsive
 
-Includes responsive classes `[medium, large]`
+## Responsive Suffixes
+
+All classes provided in this library come with breakpoint suffixes. Once set the utility property will only be applied at the specified viewport size.
+
+`@medium, @large`
