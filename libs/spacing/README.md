@@ -2,7 +2,7 @@
 
 ## Margins
 
-To set margin spacing, use `.u-margin`, `u-margin-top`, `u-margin-left`, `u-margin-right` or `u-margin-bottom`
+To set margin spacing, use `.u-margin`, `.u-margin-top`, `.u-margin-left`, `.u-margin-right` or `.u-margin-bottom`.
 
 ```html
 <div class="u-flex">
@@ -14,7 +14,7 @@ To set margin spacing, use `.u-margin`, `u-margin-top`, `u-margin-left`, `u-marg
 </div>
 ```
 
-To remove margins spacing, use `.u-margin-remove`, `u-margin-top-remove`, `u-margin-left-remove`, `u-margin-right-remove` or `u-margin-bottom-remove`
+To remove margins spacing, use `.u-margin-remove`, `.u-margin-top-remove`, `.u-margin-left-remove`, `.u-margin-right-remove` or `.u-margin-bottom-remove`.
 
 ```html
 <div class="u-flex">
@@ -28,7 +28,7 @@ To remove margins spacing, use `.u-margin-remove`, `u-margin-top-remove`, `u-mar
 
 ## Padding
 
-To set padding spacing, use `.u-padding`, `u-padding-top`, `u-padding-left`, `u-padding-right` or `u-padding-bottom`
+To set padding spacing, use `.u-padding`, `.u-padding-top`, `.u-padding-left`, `.u-padding-right` or `.u-padding-bottom`.
 
 ```html
 <div class="u-flex">
@@ -40,7 +40,7 @@ To set padding spacing, use `.u-padding`, `u-padding-top`, `u-padding-left`, `u-
 </div>
 ```
 
-To remove padding spacing, use `.u-padding-remove`, `u-padding-top-remove`, `u-padding-left-remove`, `u-padding-right-remove` or `u-padding-bottom-remove`
+To remove padding spacing, use `.u-padding-remove`, `.u-padding-top-remove`, `.u-padding-left-remove`, `.u-padding-right-remove` or `.u-padding-bottom-remove`.
 
 ```html
 <div class="u-flex">

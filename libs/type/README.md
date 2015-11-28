@@ -2,7 +2,7 @@
 
 ## Headings
 
-The `.u-font-h1` – .`u-font-size-h6` font-size utilities can be used to override an element’s default size.
+The `.u-font-h1` – `.u-font-size-h6` font-size utilities can be used to override an element’s default size.
 
 ```html
 <h1 class="u-font-size-h1">H1</h1>
