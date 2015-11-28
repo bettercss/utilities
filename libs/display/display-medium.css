@@ -16,9 +16,16 @@
 		display: inline-block !important;
 	}
 
+	.u-display-table\@medium {
+		display: table !important;
+	}
+
+	.u-display-table-cell\@medium {
+		display: table-cell !important;
+	}
+
 	.u-display-none\@medium {
 		display: none !important;
 	}
 
 }
-

@@ -1,22 +1,16 @@
-<p class="u-text-emphasize">This library provides utilities to add borders types to elements.</p>
+<p class="u-text-emphasize">This library provides utilities to handle borders.</p>
 
-## .u-border-color
+## Borders
 
-Sets the border to `solid 1px #ccc`.
-
-```html
-<div class="u-border u-padding-small">Border</div>  
-```
-
-### .u-border-[top|left|right|bottom]
-
-Sets border color to `solid 1px #ccc` for the direction specified.
+Use these utilities to manage borders.
 
 ```html
-<div class="u-border-color-left u-padding-small">Border Left</div> 
+<div class="u-border u-padding-small u-margin-bottom-tiny">Border</div>
+<div class="u-border-top u-padding-small u-margin-bottom-tiny">Border Top</div>
+<div class="u-border-left u-padding-small u-margin-bottom-tiny">Border Left</div>
+<div class="u-border-right u-padding-small u-margin-bottom-tiny">Border Right</div>
+<div class="u-border-bottom u-padding-small">Border Bottom</div>
 ```
-
-### .u-border-none
 
 Removes borders.
 
@@ -24,23 +18,17 @@ Removes borders.
 <div class="u-border-none">No Borders</div>
 ```
 
-### .u-border-rounded
+## Radius
 
-Sets border-radius to `10px` giving the element rounded corners.
-
-```html
-<div class="u-border-rounded u-border u-padding-small">Rounded</div>
-```
-
-### .u-border-rounded-[top|right|left|bottom]
-
-Sets border-radius to `10px` giving the element rounded corners for the direction specified.
+Use these utilities to manage borders radius.
 
 ```html
-<div class="u-border-rounded-top u-border u-padding-small">Rounded Top</div>
+<div class="u-border-round u-border u-padding-small u-margin-bottom-tiny">Rounded</div>
+<div class="u-border-round-top u-border u-padding-small u-margin-bottom-tiny">Rounded Top</div>
+<div class="u-border-round-left u-border u-padding-small u-margin-bottom-tiny">Rounded Left</div>
+<div class="u-border-round-right u-border u-padding-small u-margin-bottom-tiny">Rounded Right</div>
+<div class="u-border-rounded-bottom u-border u-padding-small">Rounded Bottom</div>
 ```
-
-### .u-border-circle
 
 Sets border-radius so element is appears round.
 
@@ -50,6 +38,4 @@ Sets border-radius so element is appears round.
 
 ## Responsive Suffixes
 
-All classes provided in this library come with breakpoint suffixes. Once set the utility property will only be applied at the specified viewport size.
-
-`@medium, @large`
+All classes provided in this library come with breakpoint suffixes `@medium`, `@large`.

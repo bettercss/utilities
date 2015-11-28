@@ -120,9 +120,8 @@
 	--type-h4: var(--h4);
 	--type-h5: var(--h5);
 	--type-h6: var(--h6);
-
-	--type-font-size-tiny: .5rem;
-	--type-font-size-small: 1rem;
-	--type-font-size-large: 2rem;
-	--type-font-size-huge: 2.5rem;
+	--type-font-size-tiny: var(--spacing-unit-tiny);
+	--type-font-size-small: var(--spacing-unit-small);
+	--type-font-size-large: var(--spacing-unit-large);
+	--type-font-size-huge: var(--spacing-unit-huge);
 }

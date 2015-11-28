@@ -1,8 +1,8 @@
-<p class="u-text-emphasize">This library provides utilities to help size html elements to a 12 column grid.</p>
+<p class="u-text-emphasize">This library provides utilities to help size html elements to a grid.</p>
 
-### .u-column-[1|2|3|4|5|6|7|8|9|10|11|12]
+## Columns
 
-Sets the column size based on specified unit.
+To change the column width, use `width-1` – `width-12`.
 
 ```html
 <div class="u-flex u-flex-column">
@@ -23,6 +23,4 @@ Sets the column size based on specified unit.
 
 ## Responsive Suffixes
 
-All classes provided in this library come with breakpoint suffixes. Once set the utility property will only be applied at the specified viewport size.
-
-`@medium, @large`
+All classes provided in this library come with breakpoint suffixes `@medium`, `@large`.

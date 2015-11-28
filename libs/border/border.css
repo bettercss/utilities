@@ -26,7 +26,7 @@
 	border: 0 !important;
 }
 
-.u-border-rounded {
+.u-border-round {
 	border-radius: var(--border-radius) !important;
 }
 
@@ -34,19 +34,19 @@
 	border-radius: 50% !important;
 }
 
-.u-border-rounded-top {
+.u-border-round-top {
 	border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
 }
 
-.u-border-rounded-right {
+.u-border-round-right {
 	border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
 }
 
-.u-border-rounded-bottom {
+.u-border-round-bottom {
 	border-radius: 0 0 var(--border-radius) var(--border-radius) !important;
 }
 
-.u-border-rounded-left {
+.u-border-round-left {
 	border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
 }
 

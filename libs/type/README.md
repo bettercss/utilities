@@ -1,66 +1,71 @@
-<p class="u-text-emphasize">This library provides utilities to control typography presentation.</p>
+<p class="u-text-emphasize">This library provides utilities to manage type.</p>
 
-### .u-font-size-[h1|h2|h3|h4|h5|h6|]
+## Headings
 
-Set a heading style based on the heading size specified. 
-
-```html
-<span class="u-font-size-h1">Heading</span>  
-```
-
-### .u-truncate
-
-Truncate text when hitting the end of an element.
-
-`Note: Doesn't work on inline elements`
+The `.u-font-h1` – .`u-font-size-h6` font-size utilities can be used to override an element’s default size.
 
 ```html
-<div class="u-truncate u-column-2">Lets get this text to truncate.</div>  
+<h1 class="u-font-size-h1">H1</h1>
+<h2 class="u-font-size-h2">H2</h2>
+<h3 class="u-font-size-h3">H3</h3>
+<h4 class="u-font-size-h4">H4</h4>
+<h5 class="u-font-size-h5">H5</h5>
+<h6 class="u-font-size-h6">H6</h6>
 ```
 
-### .u-font-weight-[normal|bold|none]
+## Weight
 
-Set font-weight for element.
+To manage type weight, use `.u-font-weight-normal`, `.u-font-weight-bold` or `.u-font-weight-none`.
 
 ```html
-<div class="u-font-weight-bold">Bold text</div>  
+<div class="u-font-weight-normal">Normal</div>
+<div class="u-font-weight-bold">Bold</div>
+<div class="u-font-weight-none">None</div>
 ```
 
-### .u-text-transform-[uppercase|lowercase|capitalize|none]
+## Transform
 
-Set text case for element.
+To manage type case, use `.u-text-transform-uppercase`, `.u-text-transform-lowercase`, `.u-text-transform-capitalize` or `.u-text-transform-none`.
 
 ```html
 <div class="u-text-transform-uppercase">Uppercase</div>  
+<div class="u-text-transform-lowercase">lowercase</div>
+<div class="u-text-transform-capitalize">Capitalize</div>
+<div class="u-text-transform-none">None</div>
 ```
 
-### .u-text-decoration-[underline|line-through|none]
+## Decoration
 
-Set text decoration for element.
+To manage decoration, use `.u-text-decoration-underline`, `.u-text-decoration-line-through` or `.u-text-decoration-none`.
 
 ```html
-<div class="u-text-decoration-underline">Underlined Text</div>  
+<div class="u-text-decoration-underline">Underline</div>
+<div class="u-text-decoration-line-through">Line Through</div>
+<div class="u-text-decoration-none">None</div>
 ```
 
-### .u-text-align-[center|left|right|justify]
+## Alignment
 
-Set horizontal alignment for element.
+To manage horizontal alignment, use `.u-text-align-center`, `.u-text-align-left`, `.u-text-align-right` or `.u-text-align-justify`.
 
 ```html
-<div class="u-text-align-center">Centered Text</div>  
+<div class="u-text-align-center">Centered</div>
+<div class="u-text-align-left">Left</div>
+<div class="u-text-align-right">Right</div>
+<div class="u-text-align-justify">Justify</div>
 ```
 
-### .u-vertical-align-[middle|top|bottom]
-
-Set vertical alignment for element.
+To manage vertical alignment, use `.u-vertical-align-middle`, `.u-vertical-align-top` or `.u-vertical-align-bottom`.
 
 ```html
-<div class="u-vertical-align-middle">Vertical Middle</div>  
+<span class="u-vertical-align-top">Top</span>
+<span class="u-vertical-align-middle">Middle</span>
+<span class="u-vertical-align-bottom">Bottom</span>
 ```
 
-### .u-font-size-[tiny|small|large|huge]
+## Sizing
 
-Set font-size based on the size specified.
+To manage text sizing, use `.u-font-size-tiny`, `.u-font-size-small`, `.u-font-size-large` or `u-font-size-huge`.
 
 ```html
 <div class="u-font-size-tiny">tiny Text</div>  
@@ -69,9 +74,17 @@ Set font-size based on the size specified.
 <div class="u-font-size-huge">Huge Text</div>  
 ```
 
+## Truncate
+
+You can truncate text by using `.u-truncate`.
+
+```html
+<div class="u-truncate u-column-2">Lets get this text to truncate.</div>
+```
+
+*Currently doesn't work for inline elements.*
+
 
 ## Responsive Suffixes
 
-All classes provided in this library come with breakpoint suffixes. Once set the utility property will only be applied at the specified viewport size.
-
-`@medium, @large`
+All classes provided in this library come with breakpoint suffixes `@medium`, `@large`.

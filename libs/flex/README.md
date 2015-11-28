@@ -13,8 +13,6 @@ Sets the flex display property.
 </div>
 ```
 
-## Parent Modifiers
-
 ### .u-flex-wrap
 
 Wrap items onto new line when they exceed the viewport.
@@ -55,16 +53,28 @@ Arrange items vertically.
 
 ### Alignment
 
-### .u-flex-center
+### .u-flex-vertical-center
 
-Vertically center child elements.
+Set child elements vertically centered.
 
 ```html
-<div class="u-flex u-flex-center">
+<div class="u-flex u-flex-vertical-center">
     <div class="u-border u-padding-small">column</div>
     <div class="u-border u-padding-small u-margin-top-huge u-margin-bottom-huge">column</div>
 </div>
 ```
+
+### .u-flex-horizontal-center
+
+Set child elements horizontal centered.
+
+```html
+<div class="u-flex u-flex-horizontal-center">
+    <div class="u-border u-padding-small">column</div>
+    <div class="u-border u-padding-small u-margin-top-huge u-margin-bottom-huge">column</div>
+</div>
+```
+
 
 ### .u-flex-stretch
 
@@ -124,7 +134,9 @@ Automatically fill the space between child elements.
 ```
 
 
-## Child Modifiers
+## Child Items
+
+To control the child items use these utilities.
 
 ### .u-flex-auto
 
@@ -183,6 +195,4 @@ Change the order of child element to last.
 
 ## Responsive Suffixes
 
-All classes provided in this library come with breakpoint suffixes. Once set the utility property will only be applied at the specified viewport size.
-
-`@medium, @large`
+All classes provided in this library come with breakpoint suffixes `@medium`, `@large`.

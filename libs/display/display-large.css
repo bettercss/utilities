@@ -16,6 +16,14 @@
 		display: inline-block !important;
 	}
 
+	.u-display-table\@large {
+		display: table !important;
+	}
+
+	.u-display-table-cell\@large {
+		display: table-cell !important;
+	}
+
 	.u-display-none\@large {
 		display: none !important;
 	}

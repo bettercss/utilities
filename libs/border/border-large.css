@@ -28,7 +28,7 @@
 		border: 0 !important;
 	}
 
-	.u-border-rounded\@large {
+	.u-border-round\@large {
 		border-radius: var(--border-radius) !important;
 	}
 
@@ -36,19 +36,19 @@
 		border-radius: 50% !important;
 	}
 
-	.u-border-rounded-top\@large {
+	.u-border-round-top\@large {
 		border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
 	}
 
-	.u-border-rounded-right\@large {
+	.u-border-round-right\@large {
 		border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
 	}
 
-	.u-border-rounded-bottom\@large {
+	.u-border-round-bottom\@large {
 		border-radius: 0 0 var(--border-radius) var(--border-radius) !important;
 	}
 
-	.u-border-rounded-left\@large {
+	.u-border-round-left\@large {
 		border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
 	}
 
