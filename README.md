@@ -11,7 +11,6 @@ Install via [npm](http://npmjs.org/):
 ## Libraries
 
 * [Flex](./libs/flex/)
-* [Visibility](./libs/visibility/)
 * [Type](./libs/type/)
 * [Spacing](./libs/spacing/)
 * [Display](./libs/display/)
@@ -20,16 +19,6 @@ Install via [npm](http://npmjs.org/):
 * [Column](./libs/column/)
 
 
-## Responsive
+## Responsive Suffixes
 
-You can add the responsive suffixes to the default classes. This allows you to specify at what breakpoint the properties should be set. 
-
-<table>
-	<thead>
-		<tr> <th>Suffix</th> <th>Description</th> </tr>
-	</thead>
-	<tbody>
-	<tr> <td>@medium</td> <td>--breakpoint-medium (min-width 52em)</td> </tr>
-	<tr> <td>@large</td> <td>--breakpoint-large (min-width 64em)</td> </tr>
-	</tbody>
-</table>
+All classes provided in these libraries come with breakpoint suffixes `@medium`, `@large`.
