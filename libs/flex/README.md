@@ -120,7 +120,7 @@ Align child elements to the bottom.
 </div>
 ```
 
-### .o-flex-justify
+### .u-flex-justify
 
 Automatically fill the space between child elements.
 
