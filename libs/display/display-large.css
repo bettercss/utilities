@@ -24,6 +24,10 @@
 		display: table-cell !important;
 	}
 
+	.u-display-flex\@large {
+		display: flex !important;
+	}
+
 	.u-display-none\@large {
 		display: none !important;
 	}
